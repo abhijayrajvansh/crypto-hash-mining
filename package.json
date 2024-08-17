@@ -1,0 +1,21 @@
+{
+  "name": "crypto-hash-mining",
+  "version": "1.0.0",
+  "description": "unofficial api for fetching youtube transcript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsc -p . && node dist/mine.js",
+    "build": "tsc -p .",
+    "dev": "tsx watch src/mine.ts"
+  },
+  "author": "https://abhijayrajvansh.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.16.2"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5"
+  }
+}
