@@ -4,9 +4,9 @@
   "description": "unofficial api for fetching youtube transcript",
   "main": "index.ts",
   "scripts": {
-    "start": "tsc -p . && node dist/mine.js",
+    "mine": "tsc -p . && node dist/index.js",
     "build": "tsc -p .",
-    "dev": "tsx watch src/mine.ts"
+    "dev": "tsx watch src/index.ts"
   },
   "author": "https://abhijayrajvansh.com",
   "license": "ISC",
