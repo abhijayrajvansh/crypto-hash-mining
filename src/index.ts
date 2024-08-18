@@ -1,3 +1,3 @@
 import { mineWithPrefix } from "./mine";
 
-mineWithPrefix('000', 'abhijayrajvansh');
+mineWithPrefix('00000', 'abhijayrajvansh');

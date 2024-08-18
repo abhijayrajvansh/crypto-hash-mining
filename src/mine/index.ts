@@ -2,7 +2,7 @@ import { checkHashWithPrefix } from "../checkHashWithPrefix";
 import { computeHash } from "../sha256";
 
 export const mineWithPrefix = (prefix: string, inputString: string = '') => {
-  let currNonceValue = 2274881; // saving some time :P
+  let currNonceValue = 0; // saving some time :P
   let currHashValue = '';
 
   while (!checkHashWithPrefix(currHashValue, prefix)) {
